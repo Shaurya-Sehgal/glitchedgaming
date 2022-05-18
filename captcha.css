@@ -35,3 +35,33 @@ button:hover {
     color: red;
     margin-top: 20px;
 }
+
+/* -------------Media Screen--------------- */
+@media screen and (max-width:1746px) {
+    button {
+        /* font-size: 15px; */
+        height: 3.4vh;
+    }
+    #givencaptcha {
+        height: 3.4vh;
+    }
+}
+
+@media screen and (max-width:1536px) {
+    button {
+        /* font-size: 15px; */
+        height: 3.8vh;
+    }
+    #givencaptcha {
+        height: 3.8vh;
+    }
+}
+@media screen and (max-width:1280px) {
+    button {
+        /* font-size: 10px; */
+        height: 4.5vh;
+    }
+    #givencaptcha {
+        height: 4.5vh;
+    }
+}
