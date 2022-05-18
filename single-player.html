@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header class="flex-box">
+        <img onclick="location.href = 'index.html'" id="logo" src="gl!tched.png" alt="">        
+            <nav class="flex-box nav-options">
+                <div onclick="location.href = 'single-player.html'" class="flex-box option" id="selected">
+                    <img class="icon" src="https://cdn4.iconfinder.com/data/icons/miscellaneous-icons-1/200/misc_game_singleplayer-512.png" alt="">
+                    <h3 class="textOption">Single-Player</h3>
+                </div>
+                <div onclick="location.href = 'multiplayer.html'" class="flex-box option" id="multi">
+                    <img class="icon" src="https://cdn4.iconfinder.com/data/icons/miscellaneous-icons-1/200/misc_game_multiplayer-512.png" alt="" >
+                    <h3 class="textOption">Multi-Player</h3>
+                </div>
+                <div onclick="location.href = 'popular.html'" class="flex-box option" id="popular">
+                    <img class="icon" src="https://api.nuget.org/v3-flatcontainer/firenet/1.1.0/icon" alt="" >
+                    <h3 class="textOption">Popular Games</h3>
+                </div>
+                <div onclick="location.href = 'game-subscription.html'" class="flex-box option" id="gameSub">
+                    <img class="icon" src="https://www.freeiconspng.com/thumbs/dollar-icon-png/dollar-sign-icon-png-22.png" alt="" >
+                    <h3 class="textOption">Supscription</h3>
+                </div>
+            </nav>
+    
+            <div class="nav-search flex-box">
+                <input type="text" placeholder="Search for a Game">
+                <img class="icon" src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-rouge.png" alt="" >
+            </div>
+    </header>
+
+    <h1 class="gametype">Single-Player Games</h1>
+
+    <div class="flex-box">
+        <div onclick="opengame(this.id)" class="games carRace" id="carRace">
+            <div class="name flex-box">
+                <h4>Car Race</h4>
+            </div>
+        </div>
+        <div onclick="opengame(this.id)" class="games gol" id="gol">
+            <div class="name flex-box">
+                <h4>The Game Of Luck</h4>
+            </div>
+        </div>
+    </div>
+    <script src="openGame.js"></script>
+</body>
+</html>

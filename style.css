@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*-------Header--------*/
+header{
+    background-color: black;
+    padding: 5px;
+    border: solid;
+    border-color: red;
+    border-radius: 5px;
+    font-family: monospace;
+}
+#logo{
+    width: 350px;
+    border-radius: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+ /*---------nav bar-----------*/ 
+.nav-options{
+    background-color: black;
+    width: 40%;
+    border-radius: 10px;
+    border: solid black 1px;  
+    padding: 2px;
+    text-decoration: none;
+}
+.option{
+    border: solid;
+    width: 20%;
+    border-radius: 10px;
+    background-color: black;
+    border: solid black 1px;
+    padding: 4px;
+    transition: 0.5s all;
+}
+.option:hover{
+    border-color: rgb(170, 0, 0);
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: 0 0 30px red;
+}
+#gameSub img{
+    width: 35px;
+    height: 35px;
+}
+.textOption{
+    color: red;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.nav-search{
+    border: solid;
+    border-radius: 10px;
+    width: 12%;
+    background-color: white;
+    border-color: rgb(170, 0, 0);
+    border-width: 1px;
+}
+.nav-search input{
+    border: none;
+    width: 70%;
+    height: 4vh;
+    padding-left: 3px;
+    background-color: transparent;
+    outline: none;
+}
+.nav-search img{
+    padding: 2px;
+}
+.nav-search img{
+    cursor: pointer;
+}
+/*--------- Main Start ----------*/
+
+.banner {
+    height: 93vh;
+    background-image: url("gamingbanner.jpg");
+    background-size: cover;
+}
+.aboutUs {
+    text-align: center;
+    padding: 30px;
+    color: red;
+    font-family: Patrick Hand;
+    background-color: rgba(0, 0, 0, 0.233);
+    font-size: 20px;
+}
+.aboutUs h2 {
+    margin: 10px;
+}
+
+
+/* --------------Media------------------ */
+
+@media screen and (max-width:1875px) {
+    #logo{
+        width: 300px;
+    }
+    .nav-options {
+        width: 50%;
+    }
+    .aboutUs {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1504px) {
+    #logo {
+        width: 250px;
+    }
+    .nav-options {
+        width: 60%;
+    }
+    .aboutUs {
+        font-size: 16px;
+    }
+    .banner {
+        height: 100vh;
+    }
+}
+@media screen and (max-width:1256px) {
+    #logo {
+        width: 200px;
+    }
+    .nav-options {
+        width: 70%;
+    }
+    .aboutUs {
+        font-size: 14px;
+    }
+    .banner {
+        height: 110vh;
+    }
+}
+@media screen and (max-width:1095px) {
+    #logo {
+        width: 150px;
+    }
+    .nav-options {
+        width: 80%;
+    }
+    .aboutUs {
+        font-size: 12px;
+    }
+}

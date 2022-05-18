@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="captcha.css">
+</head>
+<body>
+    <center>
+    <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2014/09/avoid-captcha.jpg" alt="" width="40%">
+    <br>
+    <input id="givencaptcha" type="text">
+    <br>
+    <button onclick="verify()">Submit</button>
+    <h1 id="incorrect"></h1>
+</center>
+    <script>
+        let correct = "qGphJD"
+        function verify(){
+            let givencaptcha = document.getElementById("givencaptcha").value
+            if(correct == givencaptcha){
+                setTimeout(function (){
+                    location.href = "game-subscription.html"
+                },1000)
+                document.getElementById("incorrect").innerHTML =  "Correct Captcha!<br> Redirecting..."
+                document.getElementById("incorrect").style.color =  "green"
+            }
+            else{
+                document.getElementById("incorrect").innerText =  "Incorrect Captcha"
+            }
+        }
+    </script>
+</body>
+</html>
