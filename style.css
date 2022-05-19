@@ -81,11 +81,9 @@ header{
     cursor: pointer;
 }
 /*--------- Main Start ----------*/
-
-.banner {
-    height: 93vh;
+body {
     background-image: url("gamingbanner.jpg");
-    background-size: cover;
+    background-size: fill;
 }
 .aboutUs {
     text-align: center;
