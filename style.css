@@ -81,7 +81,7 @@ header{
     cursor: pointer;
 }
 /*--------- Main Start ----------*/
-body {
+.body {
     background-image: url("gamingbanner.jpg");
     background-size: fill;
 }
