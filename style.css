@@ -121,9 +121,6 @@ header{
     .aboutUs {
         font-size: 16px;
     }
-    .banner {
-        height: 100vh;
-    }
 }
 @media screen and (max-width:1256px) {
     #logo {
@@ -134,9 +131,6 @@ header{
     }
     .aboutUs {
         font-size: 14px;
-    }
-    .banner {
-        height: 110vh;
     }
 }
 @media screen and (max-width:1095px) {
