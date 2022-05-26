@@ -19,21 +19,6 @@
     <button onclick="verify()">Submit</button>
     <h1 id="incorrect"></h1>
 </center>
-    <script>
-        let correct = "qGphJD"
-        function verify(){
-            let givencaptcha = document.getElementById("givencaptcha").value
-            if(correct == givencaptcha){
-                setTimeout(function (){
-                    location.href = "game-subscription.html"
-                },1000)
-                document.getElementById("incorrect").innerHTML =  "Correct Captcha!<br> Redirecting..."
-                document.getElementById("incorrect").style.color =  "green"
-            }
-            else{
-                document.getElementById("incorrect").innerText =  "Incorrect Captcha"
-            }
-        }
-    </script>
+<script src="sub.js"></script>
 </body>
 </html>
