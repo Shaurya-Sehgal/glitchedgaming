@@ -14,7 +14,8 @@ header{
     border: solid;
     border-color: red;
     border-radius: 5px;
-    font-family: monospace;
+    font-family: Patrick Hand;
+    letter-spacing: 0.5px;
 }
 #logo{
     width: 350px;
@@ -22,6 +23,13 @@ header{
 }
 #logo:hover{
     cursor: pointer;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+input::placeholder {
+    color: #222;
+    transition: color 0.3s ease;
 }
  /*---------nav bar-----------*/ 
 .nav-options{
@@ -90,8 +98,8 @@ header{
     padding: 30px;
     color: red;
     font-family: Patrick Hand;
-    background-color: rgba(0, 0, 0, 0.233);
-    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+    font-size: 22px;
 }
 .aboutUs h2 {
     margin: 10px;
@@ -108,7 +116,7 @@ header{
         width: 50%;
     }
     .aboutUs {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 @media screen and (max-width:1504px) {
@@ -119,7 +127,7 @@ header{
         width: 60%;
     }
     .aboutUs {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width:1256px) {
@@ -130,7 +138,7 @@ header{
         width: 70%;
     }
     .aboutUs {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width:1095px) {
@@ -141,6 +149,6 @@ header{
         width: 80%;
     }
     .aboutUs {
-        font-size: 12px;
+        font-size: 14px;
     }
 }

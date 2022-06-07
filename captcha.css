@@ -4,7 +4,7 @@
     font-family: Patrick Hand;
 }
 body {
-    background-color: rgb(255, 105, 105);
+    background-color: black;
 }
 img {
     width: 40%;
@@ -16,17 +16,18 @@ img {
     height: 3vh;
     border-radius: 10px;
     font-size: 20px;
+    color: black;
 }
 button {
     width: 20%;
-    height: 3vh;
     margin-top: 40px;
-    background-color: red;
+    background-color: green;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     transition: all 1s;
     font-size: 20px;
+    padding: 2px;
 }
 button:hover {
     background-color: orange;
@@ -38,10 +39,6 @@ button:hover {
 
 /* -------------Media Screen--------------- */
 @media screen and (max-width:1746px) {
-    button {
-        /* font-size: 15px; */
-        height: 3.4vh;
-    }
     #givencaptcha {
         height: 3.4vh;
     }
@@ -49,8 +46,8 @@ button:hover {
 
 @media screen and (max-width:1536px) {
     button {
-        /* font-size: 15px; */
-        height: 3.8vh;
+        height  : 3.8vh;
+        padding: 0px;
     }
     #givencaptcha {
         height: 3.8vh;
@@ -58,7 +55,6 @@ button:hover {
 }
 @media screen and (max-width:1280px) {
     button {
-        /* font-size: 10px; */
         height: 4.5vh;
     }
     #givencaptcha {

@@ -12,3 +12,9 @@ function opengame(game){
         location.href = "https://shaurya-sehgal.github.io/carrace2/"
     }
 }
+
+function search() {
+    document.getElementById("search").value = "Currently Not Working"
+    document.getElementById("search").style.color = "red"
+    document.getElementById("search").readOnly = true
+}
