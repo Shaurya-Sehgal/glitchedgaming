@@ -15,7 +15,6 @@ header{
     border-color: red;
     border-radius: 5px;
     font-family: Patrick Hand;
-    letter-spacing: 0.5px;
 }
 #logo{
     width: 350px;
@@ -90,22 +89,49 @@ input::placeholder {
 }
 /*--------- Main Start ----------*/
 .body {
-    background-image: url("gamingbanner.jpg");
-    background-size: fill;
+    background-color: black;
 }
 .aboutUs {
     text-align: center;
     padding: 30px;
     color: red;
     font-family: Patrick Hand;
-    background-color: rgba(0, 0, 0, 0.678);
     font-size: 22px;
 }
 .aboutUs h2 {
     margin: 10px;
 }
-
-
+.contact  {
+    text-align: center;
+}
+.contact h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;;
+    margin-top: 30px;
+}
+.contact button {
+    width: 25%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Patrick Hand;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: grey;
+    transition: all 0.5s;
+    color: white;
+}
+footer h4 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+hr {
+    margin-top: 250px;
+}
 /* --------------Media------------------ */
 
 @media screen and (max-width:1875px) {
