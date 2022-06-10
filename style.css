@@ -124,6 +124,9 @@ input::placeholder {
     background-color: grey;
     color: white;
 }
+
+/* -----------------footer start------------------ */
+
 footer h4 {
     text-align: center;
     margin-top: 50px;
@@ -155,6 +158,14 @@ hr {
     .aboutUs {
         font-size: 18px;
     }
+    .nav-search input {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1338px) {
+    .nav-search input {
+        font-size: 10px;
+    }
 }
 @media screen and (max-width:1256px) {
     #logo {
@@ -176,8 +187,5 @@ hr {
     }
     .aboutUs {
         font-size: 14px;
-    }
-    .nav-search input {
-        font-size: 1px;
     }
 }
