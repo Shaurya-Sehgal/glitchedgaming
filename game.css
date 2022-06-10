@@ -42,9 +42,19 @@ body {
     align-items: flex-end;
     margin-top: 15px;
     margin-bottom: 15px;
+    transition: all 0.5s;
 }
 .games:hover {
     cursor: pointer;
+    width: 250px;
+    height: 250px;
+}
+.games:hover .name {
+    width: 250px;
+    background-color: red;
+}
+.games:hover .name h4 {
+    color: black;
 }
 .carRace {
     background-image: url("carRace.png");
@@ -68,8 +78,10 @@ body {
     border-bottom-left-radius: 19px;
     width: 240px;
     height: 40px;
+    transition: all 0.5s;
 }
 .name h4 {
+    transition: all 0.5s;
     color: white;
     font-family: Macondo;
 }

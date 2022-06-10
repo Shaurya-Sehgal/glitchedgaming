@@ -118,10 +118,10 @@ input::placeholder {
     font-family: Patrick Hand;
     font-size: 20px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 .contact button:hover {
     background-color: grey;
-    transition: all 0.5s;
     color: white;
 }
 footer h4 {
@@ -176,5 +176,8 @@ hr {
     }
     .aboutUs {
         font-size: 14px;
+    }
+    .nav-search input {
+        font-size: 1px;
     }
 }
