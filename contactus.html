@@ -7,18 +7,20 @@
     <title>Contact Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="contactus.css">
 </head>
 
 <body class="bg-black">
     <h1 class="mt-4 text-center text-light">Contact Us</h1>
-    <div class="container-fluid bg-dark mt-4 p-4">
+    <div class="container-fluid mt-4 p-4">
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label text-light">Enter address</label>
+            <label for="exampleFormControlInput1" class="form-label text-danger">Enter address</label>
             <form method="POST" action="https://formsubmit.co/db3f1f9651400967db0e27222724ed24" enctype="multipart/form-data">
                 <input class="mb-3 form-control" type="email" name="email" placeholder="Your email" required>
-            <label for="exampleFormControlInput1" class="form-label text-light">Enter message</label>
+            <label for="exampleFormControlInput1" class="form-label text-danger">Enter message</label>
                 <textarea class="mb-3 form-control" name="message" placeholder="Your message" required></textarea>
-                <button class="btn btn-light" type="submit">Send</button>
+                <button>Send</button>
+                <!-- <button class="btn btn-light" type="submit">Send</button> -->
             </form>
     </div>
 
@@ -26,6 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+        <script src="contactus.js"></script>
 </body>
 
 </html>
