@@ -15,6 +15,6 @@ function opengame(game){
 
 function search() {
     document.getElementById("search").value = "Currently Not Working"
-    document.getElementById("search").style.color = "red"
     document.getElementById("search").readOnly = true
+    document.getElementById("search").style.color = "red"
 }

@@ -33,6 +33,21 @@ body {
     margin-bottom: 30px;
     text-shadow: 0 0 5px red;
 }
+.game-container {
+    animation-name: game;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes game {
+    0% {
+        margin-left: -1500px;
+    }
+    50% {
+        margin-left: 300px;
+    }
+}
+
 .games{
     width: 240px;
     height: 240px;
