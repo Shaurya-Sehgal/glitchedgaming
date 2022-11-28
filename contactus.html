@@ -14,18 +14,19 @@
     <h1 class="mt-4 text-center text-light">Contact Us</h1>
     <div class="container-fluid mt-4 p-4">
         <div class="mb-3">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://shaurya-sehgal.github.io/glitchedgaming/">
+            <input class="mb-3 form-control" type="email" name="email" placeholder="Your email" required>
             <label for="exampleFormControlInput1" class="form-label text-danger">Enter address</label>
-            <form method="POST" action="https://formsubmit.co/db3f1f9651400967db0e27222724ed24" enctype="multipart/form-data">
-                <input class="mb-3 form-control" type="email" name="email" placeholder="Your email" required>
             <label for="exampleFormControlInput1" class="form-label text-danger">Enter message</label>
-                <textarea class="mb-3 form-control" name="message" placeholder="Your message" required></textarea>
-                <button>Send</button>
+            <form method="POST" action="https://formsubmit.co/db3f1f9651400967db0e27222724ed24" enctype="multipart/form-data">
+            <textarea class="mb-3 form-control" name="message" placeholder="Your message" required></textarea>
+            <button>Send</button>
             </form>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
         <script src="contactus.js"></script>
 </body>
